@@ -33,7 +33,7 @@ created a clean dataframe that includes only the 3 specific routes that we wante
 
 
 
-
+#.................................................................................
 
 # Research Question 2
 The goal of this analysis is to understand how average fares vary across different arrival cities for flights departing from Los Angeles, CA (Metropolitan Area) during each quarter of the year 2018. By grouping the data based on the quarter and arrival city, we aim to identify patterns and trends in airfare pricing for specific destinations.
@@ -57,16 +57,16 @@ Analyze the plotted results to identify any notable trends, seasonal patterns, o
 Look for insights that could help in understanding the factors influencing airfare pricing for these specific routes.
 By conducting this analysis, we aim to provide stakeholders with a clear and concise overview of how average fares vary across different arrival cities from Los Angeles throughout the year 2018. The results may contribute valuable information for decision-making in the airline industry or for travelers considering specific routes.
 
-
+#..................................................................................
 
 # Research Question 3
+This question focus on analyze the impact of the distance between airports, and the number of passengers an specifict airline routes on the fares.
 
+From the clean DataFrame, create a new DataFrame with only columns "Year","quarter", "Departure_city", "Arrival_city", "Non_stop_Miles", "passengers", "fare". After that, plot the scatter plot with x-axis is the number of passengers and the y-axis is the fares. Plot the regression line and calculate the correlation number between the number of passengers and fares. Similar to previous scatter plot and line plot, plot the scatter plot with x-axis is the distance (miles) and the y-axis is the fares. Plot the regression line and calculate the correlation number between the distance and fares.
 
+Then analyze the relationship between the number of passengers versus fares and the distance between airports versus fares based on their correlation number.
 
-
-
-
-
+#................................................................................................
 # Research Question 4
 wanted to look at fare variability so from the clean dataframe
 The columns of interest are Quarter, Arrival_city, and Fare
@@ -77,10 +77,7 @@ Then I was able to subtract the maximum fare column from the 2017 groupby from t
 
 was able to conclude that the most price variable route is from Los Angeles to Washington DC
 
-
-
-
-
+#....................................................................................
 
 # Research Question 5
 The goal of this research question is to understand the seasonal patterns in air fares and passenger numbers.
