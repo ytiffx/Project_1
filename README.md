@@ -36,9 +36,26 @@ created a clean dataframe that includes only the 3 specific routes that we wante
 
 
 # Research Question 2
+The goal of this analysis is to understand how average fares vary across different arrival cities for flights departing from Los Angeles, CA (Metropolitan Area) during each quarter of the year 2018. By grouping the data based on the quarter and arrival city, we aim to identify patterns and trends in airfare pricing for specific destinations.
 
+Key Steps in the Analysis:
 
+Data Preparation:
 
+Extract and filter the dataset to include only flights departing from Los Angeles, CA, with specific arrival cities (Washington, DC, Tampa, FL, Seattle, WA).
+Ensure that the dataset covers the entire year 2018.
+Grouping and Aggregation:
+
+Group the data by both quarter and arrival city.
+Calculate the average fare for each group, providing insights into the typical cost of flights to different destinations during each quarter.
+Visualization:
+
+Use a bar plot to visually represent the average fare for each arrival city in each quarter. This allows for easy comparison of fare variations across destinations and over time.
+Interpretation:
+
+Analyze the plotted results to identify any notable trends, seasonal patterns, or differences in average fares between the specified arrival cities.
+Look for insights that could help in understanding the factors influencing airfare pricing for these specific routes.
+By conducting this analysis, we aim to provide stakeholders with a clear and concise overview of how average fares vary across different arrival cities from Los Angeles throughout the year 2018. The results may contribute valuable information for decision-making in the airline industry or for travelers considering specific routes.
 
 
 
