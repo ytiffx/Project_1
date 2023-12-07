@@ -28,12 +28,12 @@ created a clean dataframe that includes only the 3 specific routes that we wante
 
 
 # Research Question 1
+To better understand the route from Los Angeles, CA, to Seattle, WA, Washington, DC, and Tampa, FL, respectively, we examined the miles from the origin, average passengers per day, and average fare from the origin.
+We first filtered the columns from the dataset to Los Angeles, CA and applied a second level filter to show arrival cities which are Tampa, FL, Washington, DC and Seattle, WA.
+We then used groupby to get to miles to destinations, average passengers .mean() and average overall fares .mean() in separate data frames. Once we reviewed each of the output, we created a data frame to aggregate the three outputs into one summary.
+Based on the findings below, we observed that Seattle, WA had the shortest distance to the destination with the highest average number of passengers traveling per day. Due to the shortest distance, it also contributed to the lowest average overall fares compared to the other two cities. Although Washington, DC is the furthest away among the three cities, the average overall fare is 2.14% less compared to Tampa, FL, despite the difference in distance.
 
-
-
-
-
-#.................................................................................
+#..............................................................................................................................
 
 # Research Question 2
 The goal of this analysis is to understand how average fares vary across different arrival cities for flights departing from Los Angeles, CA (Metropolitan Area) during each quarter of the year 2018. By grouping the data based on the quarter and arrival city, we aim to identify patterns and trends in airfare pricing for specific destinations.
@@ -57,7 +57,7 @@ Analyze the plotted results to identify any notable trends, seasonal patterns, o
 Look for insights that could help in understanding the factors influencing airfare pricing for these specific routes.
 By conducting this analysis, we aim to provide stakeholders with a clear and concise overview of how average fares vary across different arrival cities from Los Angeles throughout the year 2018. The results may contribute valuable information for decision-making in the airline industry or for travelers considering specific routes.
 
-#..................................................................................
+#...............................................................................................................................
 
 # Research Question 3
 This question focus on analyze the impact of the distance between airports, and the number of passengers an specifict airline routes on the fares.
@@ -66,7 +66,7 @@ From the clean DataFrame, create a new DataFrame with only columns "Year","quart
 
 Then analyze the relationship between the number of passengers versus fares and the distance between airports versus fares based on their correlation number.
 
-#................................................................................................
+#................................................................................................................................
 # Research Question 4
 wanted to look at fare variability so from the clean dataframe
 The columns of interest are Quarter, Arrival_city, and Fare
@@ -77,7 +77,7 @@ Then I was able to subtract the maximum fare column from the 2017 groupby from t
 
 was able to conclude that the most price variable route is from Los Angeles to Washington DC
 
-#....................................................................................
+#..................................................................................................................................
 
 # Research Question 5
 The goal of this research question is to understand the seasonal patterns in air fares and passenger numbers.
