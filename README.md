@@ -83,7 +83,17 @@ was able to conclude that the most price variable route is from Los Angeles to W
 
 
 # Research Question 5
+The goal of this research question is to understand the seasonal patterns in air fares and passenger numbers.
 
+We tooks the cleaned up data and filtered it using loc to reduce it to the cities of interest. Departure = LA and arrival= Tampa, Seattle, Washington DC
+
+We Groupe the filtered data using Year, Arrival City and quarter and caluclated the means for fare, distance and passengers. Then we calcualted the average fare per mile
+
+The using this data, we made the plots to see Passenger information vs Quarters and Fare vs Quareters. Made the line plots for each city and analyzed it to see the patterns.
+
+We were able to make observations and make recommendations based on these plots.
+
+Then to show the correlation between avg fare per mile vs distance, did a geo map using the geoapify APIs. Got the latitude/longitude for each cities and then did 3 hvplots - one for the points for each city and 2 for labels with distance and city name. Super imposed them together to get the final map chart.
 
 
 
